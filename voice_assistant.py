@@ -56,7 +56,7 @@ def speechtx(x):
 if __name__=="__main__":
     wishMe()
 
-    if sptext().lower()=="hello raj":
+    if sptext().lower()=="raj":
 
 
             while True:
