@@ -40,7 +40,7 @@ def sptext():
         except sr.UnknownValueError:
             print("Sorry, I could not Understand You!")
             return ''
-# sptext()
+
 
 def speechtx(x):
     engine= pyttsx3.init()
@@ -51,7 +51,6 @@ def speechtx(x):
     engine.say(x)
     print(x)
     engine.runAndWait()
-# speechtx("hello gidda")
 
 if __name__=="__main__":
     wishMe()
